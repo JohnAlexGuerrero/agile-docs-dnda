@@ -10,6 +10,8 @@ Crea un archivo .env en la raíz de tu proyecto. Ahí agregaremos nuestras varia
     DB_HOST=tu-db-host
     ALLOWED_HOSTS=tu-host1, tu-host2, tu-host3
 
+pip install requirements.txt
+
 Para comprobar la conexion con nuestra base de datos vamos a realizar la primera migración
 
     python manage.py makemigrations
